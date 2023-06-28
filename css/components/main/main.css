@@ -1,0 +1,26 @@
+.main {
+  height: 100%;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ------------- options style ------------------ */
+.main__options {
+  display: flex;
+  gap: 32px;
+}
+@media (max-width: 768px) {
+  .main__options {
+    gap: 26px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 0 52px;
+  }
+}
+@media (max-width: 375px) {
+    .main__options {
+        padding: 70px 0 52px;
+      }
+  }
