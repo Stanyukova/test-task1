@@ -118,7 +118,7 @@
     text-align: center;
   }
 
-  .header__img {
+  .header__img svg {
     max-width: 100%;
     height: auto;
   }
